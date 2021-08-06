@@ -1,3 +1,9 @@
+# Scrapes Indeed for jobs with the given parameters.
+# To extend:
+# - Let user give parameters (job and location, sort type)
+# - Get most recent job listings
+# - Email the list of jobs to someone
+
 import requests
 from bs4 import BeautifulSoup
 
